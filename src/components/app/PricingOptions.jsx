@@ -12,9 +12,10 @@ const PricingOptions = () => {
   return (
     <div>
       <Title>Explore Our Pricing</Title>
+
       <div className="price-card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {priceCard.map((card) => (
-          <PriceCard key={card.id} card={card}></PriceCard>
+          <PriceCard key={card.name} card={card}></PriceCard>
         ))}
       </div>
     </div>

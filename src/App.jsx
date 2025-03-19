@@ -1,3 +1,5 @@
+import LineChartComp from "./components/app/LineChart";
+
 import PricingOptions from "./components/app/PricingOptions";
 import Navbar from "./components/shared/Navbar";
 
@@ -9,6 +11,7 @@ function App() {
         Yahoo 😀 !! Daisy Khala Came to our life again
       </h1>
       <PricingOptions></PricingOptions>
+      <LineChartComp></LineChartComp>
     </>
   );
 }
