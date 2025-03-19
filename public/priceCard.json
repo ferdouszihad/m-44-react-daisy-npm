@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Basic",
+    "price": "$10/month",
+    "features": ["1 Website", "5GB Storage", "Basic Support"],
+    "buttonText": "Get Basic"
+  },
+  {
+    "name": "Silver",
+    "price": "$20/month",
+    "features": ["5 Websites", "20GB Storage", "Priority Support"],
+    "buttonText": "Get Silver"
+  },
+  {
+    "name": "Premium",
+    "price": "$40/month",
+    "features": [
+      "Unlimited Websites",
+      "50GB Storage",
+      "24/7 Support",
+      "Free Domain"
+    ],
+    "buttonText": "Get Premium"
+  }
+]
