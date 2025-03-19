@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="px-4 flex justify-between items-center py-3 border-b-2 border-base-300 bg-yellow-50">
+    <nav className="px-4 flex justify-between items-center py-3 border-b-2 border-base-300 bg-yellow-50 relative z-20">
       <Logo></Logo>
       <div className="large-opt">
         <ul className="lg:flex hidden gap-4">
@@ -38,8 +38,8 @@ const Navbar = () => {
           className={`cursor-pointer ${isMenuOpen ? "block" : "hidden"}`}
         ></ImCross>
         <ul
-          className={`space-y-3 absolute left-0 bg-yellow-50 w-full p-4 ${
-            isMenuOpen ? "top-16" : "-top-[9999px]"
+          className={`space-y-3 duration-1000 absolute z-10 left-0 bg-yellow-50 w-full p-4 ${
+            isMenuOpen ? "top-16" : "-top-[600px]"
           } `}
         >
           {routes.map((route) => (
