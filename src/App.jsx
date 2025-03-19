@@ -1,4 +1,5 @@
 import LineChartComp from "./components/app/LineChart";
+import PhonePrices from "./components/app/PhonePrices";
 
 import PricingOptions from "./components/app/PricingOptions";
 import Navbar from "./components/shared/Navbar";
@@ -12,6 +13,7 @@ function App() {
       </h1>
       <PricingOptions></PricingOptions>
       <LineChartComp></LineChartComp>
+      <PhonePrices></PhonePrices>
     </>
   );
 }
